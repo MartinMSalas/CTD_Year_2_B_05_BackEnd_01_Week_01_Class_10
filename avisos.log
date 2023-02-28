@@ -1,0 +1,39 @@
+[2023-02-27 20:27:10] [ INFO ] [TestLog:9] Empezamos nuestro metodo MAIN
+[2023-02-27 20:27:10] [ ERROR] [TestLog:14] Error por dividir por cero 
+java.lang.ArithmeticException: / by zero
+	at TestLog.main(TestLog.java:12)
+[2023-02-27 20:27:10] [ WARN ] [TestLog:16] Advertencia el metodo MAIN esta por finalizar
+[2023-02-27 20:27:10] [ DEBUG] [TestLog:17] Esto va a mostrarse solo si el infoLogger esta en DEBUG
+[2023-02-27 20:27:10] [ INFO ] [TestLog:18] Finalizamos el thread MAIN
+[2023-02-27 23:51:19] [ INFO ] [TestLog:9] Empezamos nuestro metodo MAIN
+[2023-02-27 23:51:19] [ ERROR] [TestLog:14] Error por dividir por cero 
+java.lang.ArithmeticException: / by zero
+	at TestLog.main(TestLog.java:12)
+[2023-02-27 23:51:19] [ WARN ] [TestLog:16] Advertencia el metodo MAIN esta por finalizar
+[2023-02-27 23:51:19] [ DEBUG] [TestLog:17] Esto va a mostrarse solo si el infoLogger esta en DEBUG
+[2023-02-27 23:51:19] [ INFO ] [TestLog:18] Finalizamos el thread MAIN
+[2023-02-28 00:33:52] [ ERROR] [Main:75] La base de datos puede que ya esté siendo utilizada: "C:/Users/M/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/M/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-02-28 00:34:11] [ ERROR] [Main:75] La base de datos puede que ya esté siendo utilizada: "C:/Users/M/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/M/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-02-28 00:34:16] [ ERROR] [Main:75] La base de datos puede que ya esté siendo utilizada: "C:/Users/M/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/M/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-02-28 00:34:24] [ ERROR] [Main:75] La base de datos puede que ya esté siendo utilizada: "C:/Users/M/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/M/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-02-28 00:34:50] [ ERROR] [Main:75] La base de datos puede que ya esté siendo utilizada: "C:/Users/M/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/M/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-02-28 00:35:15] [ ERROR] [Main:75] La base de datos puede que ya esté siendo utilizada: "C:/Users/M/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/M/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-02-28 00:36:04] [ INFO ] [Main:49] Creating table in given database...
+[2023-02-28 00:36:04] [ ERROR] [Main:75] Table "ANIMALESASDAS" not found (this database is empty); SQL statement:
+SELECT * FROM animalesasdas [42104-214]
+[2023-02-28 01:02:52] [ INFO ] [Main:49] Creating table in given database...
+[2023-02-28 01:02:52] [ ERROR] [Main:75] Table "ANIMALESASDAS" not found (this database is empty); SQL statement:
+SELECT * FROM animalesasdas [42104-214]
+[2023-02-28 01:03:57] [ INFO ] [Main:49] Creating table in given database...
+[2023-02-28 01:03:57] [ ERROR] [Main:75] Table "ANIMALES" not found (this database is empty); SQL statement:
+SELECT * FROM animales [42104-214]
+[2023-02-28 01:04:48] [ INFO ] [Main:49] Creating table in given database...
+[2023-02-28 01:05:23] [ INFO ] [Main:49] Creating table in given database...
+[2023-02-28 01:05:33] [ INFO ] [Main:49] Creating table in given database...
+[2023-02-28 01:05:41] [ INFO ] [Main:49] Creating table in given database...
