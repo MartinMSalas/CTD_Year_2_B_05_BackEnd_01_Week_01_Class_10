@@ -50,7 +50,7 @@ public class Main {
 
             //[4a] - Utilizar el statement creado para insertar datos en la base de datos
 //            stmt.execute(SQL_CREAR_TABLA);
-            int registros = stmt.executeUpdate(SQL_INSERT3); //Se recomienda para INSERT, UPDATE y DELETE
+//            int registros = stmt.executeUpdate(SQL_INSERT3); //Se recomienda para INSERT, UPDATE y DELETE
 //            logger.info("Se insertaron " + registros + " registros");
 
             //[4b] - Utilizar ResultSet para obtener los datos provenientes de una consulta SQL
