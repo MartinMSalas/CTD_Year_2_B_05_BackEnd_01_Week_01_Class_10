@@ -56,3 +56,11 @@ Column "nombre" not found [42122-214]
 [2023-02-28 03:46:23] [ ERROR] [Main:95] Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.BACKEND01_CLASS10FIGURAS(ID) ( /* key:0 */ 1, 'CIRCLE', NULL)"
 Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.BACKEND01_CLASS10FIGURAS(ID) ( /* key:0 */ 1, 'CIRCLE', NULL)"; SQL statement:
 INSERT INTO backend01_class10figuras(ID, FIGURA) VALUES(1, 'CIRCLE') [23505-214]
+[2023-02-28 03:49:45] [ INFO ] [Main:53] Creating table in given database...
+[2023-02-28 03:49:45] [ ERROR] [Main:95] Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.BACKEND01_CLASS10FIGURAS(ID) ( /* key:0 */ 1, 'CIRCLE', NULL)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.BACKEND01_CLASS10FIGURAS(ID) ( /* key:0 */ 1, 'CIRCLE', NULL)"; SQL statement:
+INSERT INTO backend01_class10figuras(ID, FIGURA, COLOR) VALUES(1, 'CIRCLE', 'BLUE') [23505-214]
+[2023-02-28 20:01:28] [ INFO ] [Main:53] Creating table in given database...
+[2023-02-28 20:01:28] [ ERROR] [Main:95] Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.BACKEND01_CLASS10FIGURAS(ID) ( /* key:0 */ 1, 'CIRCLE', NULL)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.BACKEND01_CLASS10FIGURAS(ID) ( /* key:0 */ 1, 'CIRCLE', NULL)"; SQL statement:
+INSERT INTO backend01_class10figuras(ID, FIGURA, COLOR) VALUES(1, 'CIRCLE', 'BLUE') [23505-214]

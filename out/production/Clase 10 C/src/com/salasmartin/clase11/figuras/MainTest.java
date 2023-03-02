@@ -55,12 +55,18 @@ class MainTest {
 
       //[4a] - Utilizar el statement creado para insertar datos en la base de datos
       //stmt.execute(createTable);
+      /*
+
+      /
       int registros = stmt.executeUpdate(SQL_INSERT1);
+
       registros = stmt.executeUpdate(SQL_INSERT2);
       registros = stmt.executeUpdate(SQL_INSERT3);
       registros = stmt.executeUpdate(SQL_INSERT4);
       registros = stmt.executeUpdate(SQL_INSERT5);
-      logger.info("Se insertaron " + registros + " registros");//Se recomienda para INSERT, UPDATE y DELETE
+      */
+
+      //logger.info("Se insertaron " + registros + " registros");//Se recomienda para INSERT, UPDATE y DELETE
 //            int registros = stmt.executeUpdate(SQL_INSERT3); //Se recomienda para INSERT, UPDATE y DELETE
 //            logger.info("Se insertaron " + registros + " registros");
 
@@ -72,8 +78,8 @@ class MainTest {
 
       List<Figuras> figuras = new ArrayList<>();
 
+      Figuras a;
       while (rs.next()){
-        Figuras a = null;
         switch (rs.getString("FIGURA")){
           case "CIRCLE" :  a = new Circle(rs.getString("COLOR"));
                           break;
@@ -89,7 +95,7 @@ class MainTest {
         figuras.add(a);
       }
 
-      figuras.forEach(a -> System.out.println(a));
+      figuras.forEach(figure -> System.out.println(figure));
 
     } catch (SQLException ex) {
       logger.error(ex.getMessage());
